@@ -26,22 +26,6 @@ function Users({usersDataPromise}) {
 // 3. Send the promise to the component to load data 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // /*
 // *1. Data source | JSON
 // *JSOn stringify()

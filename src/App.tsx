@@ -5,6 +5,7 @@ import './App.css'
 // import Counter from './Counter'
 // import Batter from './Batter'
 import Users from './Users'
+import Todos from './Todos';
 // import Posts from './Post';
 // import Post from './Post'
 // import Comments from './Comments';
@@ -43,6 +44,8 @@ function App() {
 
   return (
     <>
+
+    <Todos></Todos>
     
     <Suspense fallback = {<p>Loading...</p>}>
         <Users usersDataPromise = {usersDataPromise()}></Users>
